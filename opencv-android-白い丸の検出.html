@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html,body{font-family:"Open Sans",Arial,sans-serif;font-size:14px;font-weight:400;background:#f3f3f3 url(https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14198120439?w=200&amp;h=200&amp;up=0
+) no-repeat center center fixed;background-size:cover;height:100%}#title{font-family:"Mr Dafoe",Times,serif;font-size:34px;background:rgba(255,255,255,.8);margin-bottom:34px}.header{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #eee}a{color:#26ADE4;text-decoration:none}#title a{color:#333;margin-left:21px}#title a:hover{text-decoration:none;color:#26ADE4}.sidebar ul{margin:0;padding:0}.sidebar ul li{list-style:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0 13px 0;padding:13px}.navi a{margin:5px 2px;font-size:95%}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}			
+		</style>
+
+		<title>Opencv Android 白い丸の検出</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Opencv Android 白い丸の検出",
+  "datePublished": "2021-05-05",
+  "image": [https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10157412425?w=200&amp;h=200&amp;up=0,https://www.tokyo-itcenter.com/900image/and_rutintaimer.jpg,https://kokensha.xyz/wp-content/uploads/2018/05/Flutter-Google%E2%80%99s-New-Mobile-UI-Framework-for-iOS-Android-2-1-1024x559-1024x559.png],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=opencv android 白い丸の検出",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+		<!-- Head tag Code -->	</head>
+	<body>
+		<header class="bg-white fixed-top">			
+			<nav class="navbar navbar-light bg-white mb-0">
+				<div class="container justify-content-center justify-content-sm-between">	
+				  <a href="/" title="Blog" class="navbar-brand mb-1">Blog</a>
+				  				</div>			  
+			</nav>				
+		</header>
+		<main class="main container bg-white">
+			<div class="col-md-12 my-4" align="center">
+				<div class="d-block p-4">
+	<br/><center>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'd232bd6e1c0d85f8dc8c8119bc5f5a1e',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://magnificentmanlyyeast.com/d232bd6e1c0d85f8dc8c8119bc5f5a1e/invoke.js"></scr' + 'ipt>');
+</script></center><br/>
+</div>			</div>
+			<div class="row header">
+				<div class="col-sm-12 text-center p-2">
+						<h1>Opencv Android 白い丸の検出</h1>
+
+	
+	<div class="navi text-center">
+										<a class="badge badge-secondary" href="/%E6%9F%B4%E7%94%B0-%E3%81%BE%E3%82%86%E3%81%BF-%E7%99%BD%E3%81%84-%E3%83%9A%E3%83%BC%E3%82%B8-%E3%81%AE-%E4%B8%AD-%E3%81%AB-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89.html">柴田 まゆみ 白い ページ の 中 に レコード</a>
+											<a class="badge badge-info" href="/%E3%82%A4%E3%83%A9%E3%83%AC-%E6%9C%A8%E3%80%85-%E8%A1%A8%E7%8F%BE.html">イラレ 木々 表現</a>
+											<a class="badge badge-warning" href="/%E3%83%97%E3%83%A9%E3%83%B3%E3%82%BF%E3%83%BC-%E7%99%BD%E3%81%84%E8%99%AB-%E6%A0%B9%E3%81%8C.html">プランター 白い虫 根が</a>
+											<a class="badge badge-info" href="/%E3%82%89%E3%83%BC%E3%82%81%E3%82%93-%E3%81%B2%E3%81%AE%E6%9C%A8-%E9%B3%A5%E5%B1%B1%E6%98%8E.html">らーめん ひの木 鳥山明</a>
+											<a class="badge badge-primary" href="/%E3%83%A1%E3%82%B0%E3%83%86%E3%82%A3%E3%83%AA%E3%83%BC-%E7%99%BD%E3%81%84-%E8%A8%98%E6%86%B6-%E3%81%AE-%E5%A5%B3.html">メグティリー 白い 記憶 の 女</a>
+											<a class="badge badge-dark" href="/photoshop-%E7%99%BD%E3%81%84%E9%83%A8%E5%88%86%E3%82%92%E9%80%8F%E9%81%8E%E5%87%A6%E7%90%86.html">photoshop 白い部分を透過処理</a>
+											<a class="badge badge-success" href="/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88-%E6%9C%A8%E3%81%AE%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88-%E5%8F%A4%E3%81%84.html">イラスト 木のプレート 古い</a>
+											<a class="badge badge-primary" href="/%E3%82%A4%E3%83%83%E3%83%8C-%E6%9C%A8%E3%81%AE%E4%B8%AD%E3%81%AB%E5%B0%81%E5%8D%B0%E3%81%95%E3%82%8C%E3%82%8B.html">イッヌ 木の中に封印される</a>
+											<a class="badge badge-primary" href="/%E3%82%B7%E3%83%B3%E3%82%BB%E3%83%BC-%E3%82%AA%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%83%AA%E3%82%A2%E3%81%AE%E7%99%BD%E3%81%84%E7%A0%82-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%B9%E3%82%A4%E3%83%B3%E3%82%B0-1kg.html">シンセー オーストラリアの白い砂 ホワイトスイング 1kg</a>
+											<a class="badge badge-warning" href="/%E3%82%AB%E3%83%BC%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E7%99%BD%E3%81%84%E8%99%AB-%E9%98%B2%E8%99%AB%E5%89%A4.html">カーネーション 白い虫 防虫剤</a>
+											<a class="badge badge-dark" href="/%E9%8A%80-%E6%AD%AF-%E3%82%92-%E7%99%BD%E3%81%84-%E6%AD%AF-%E3%81%AB-%E5%A4%A7%E9%98%AA.html">銀 歯 を 白い 歯 に 大阪</a>
+											<a class="badge badge-dark" href="/%E3%82%84%E3%81%8D%E3%81%A8%E3%82%93-%E6%9C%A8%E3%80%85%E5%AE%B6-6%E5%8F%B7%E5%BA%97.html">やきとん 木々家 6号店</a>
+											<a class="badge badge-success" href="/%E3%83%93%E3%83%AA%E3%83%BC%E3%83%90%E3%83%B3%E3%83%90%E3%83%B3-%E7%99%BD%E3%81%84%E3%83%96%E3%83%A9%E3%83%B3%E3%82%B3-%E9%9F%B3%E6%A5%BD.html">ビリーバンバン 白いブランコ 音楽</a>
+											<a class="badge badge-secondary" href="/%E4%B8%8B%E5%94%87-%E7%99%BD%E3%81%84-%E3%81%97%E3%81%93%E3%82%8A.html">下唇 白い しこり</a>
+											<a class="badge badge-warning" href="/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BC-%E8%91%89-%E7%99%BD%E3%81%84%E7%B7%9A.html">クローバー 葉 白い線</a>
+						</div>
+<center>
+	<script type="text/javascript">
+	atOptions = {
+		'key' : 'a7e6ae4bcf1c49afa3b184d0c694ad6c',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://magnificentmanlyyeast.com/a7e6ae4bcf1c49afa3b184d0c694ad6c/invoke.js"></scr' + 'ipt>');
+</script>
+		
+	</center>
+					
+				</div>
+			</div>
+			<div class="row content mb-4">
+				<div class="col-md-12">					
+					
+	
+	<div class="card-columns">
+						
+	  <div class='card'>
+	  	<a href="https://blog.ashija.net/wp-content/uploads/2017/11/05d52cdc46104235ad025a926fd3364c-1.png" data-lightbox="roadtrip" data-title="Opencv 円の検出はハフ変換より最小外接円がいいぞ">
+						<img class="card-img" src="https://blog.ashija.net/wp-content/uploads/2017/11/05d52cdc46104235ad025a926fd3364c-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwWRQ3vOTAloplI6ZsLQpKoAsEEDIL-5k366Tq9aUtQxkGubdrYKBTPjLYkAuyKNJdfw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencv 円の検出はハフ変換より最小外接円がいいぞ
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10157412425?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10157412425?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlWtcVx1vMTXvHZRqGPFyBr5GNWVRd2EwAFwr9NwuBroaYGdybH6rdqHdCcm9hmlaHFw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://livedoor.sp.blogimg.jp/moonlight_aska/imgs/3/2/32b1d97a.png" data-lightbox="roadtrip" data-title="Opencv 円を検出する Google Os実験室 Moonlight 明日香">
+						<img class="card-img" src="https://livedoor.sp.blogimg.jp/moonlight_aska/imgs/3/2/32b1d97a.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxw8Ru9H9nSFnN-Z51bA-_GmM42Anvv8qrsm-12ZhhpOHCPTClaG4vjp7_qVM1lsiF_I';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencv 円を検出する Google Os実験室 Moonlight 明日香
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DOpenCV%2528Python%25E7%2589%2588%2529%25E3%2581%25A7%25E3%2583%2586%25E3%2583%258B%25E3%2582%25B9%25E3%2581%25AE%25E3%2583%259C%25E3%2583%25BC%25E3%2583%25AB%25E8%25BB%258C%25E9%2581%2593%25E3%2582%2592%25E6%25A4%259C%25E5%2587%25BA%25E3%2581%2599%25E3%2582%258B%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D4ac557d74681a49de3c046ad0f533dc2&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540otakoma%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D63ce5c7b72c3c093691baadc3ab13442&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=009470172ba1d75cbdd07b2e6b05d2a5" data-lightbox="roadtrip" data-title="Opencv Python版 でテニスのボール軌道を検出する Qiita">
+						<img class="card-img" src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DOpenCV%2528Python%25E7%2589%2588%2529%25E3%2581%25A7%25E3%2583%2586%25E3%2583%258B%25E3%2582%25B9%25E3%2581%25AE%25E3%2583%259C%25E3%2583%25BC%25E3%2583%25AB%25E8%25BB%258C%25E9%2581%2593%25E3%2582%2592%25E6%25A4%259C%25E5%2587%25BA%25E3%2581%2599%25E3%2582%258B%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D4ac557d74681a49de3c046ad0f533dc2&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540otakoma%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D63ce5c7b72c3c093691baadc3ab13442&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=009470172ba1d75cbdd07b2e6b05d2a5" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gkWsTRmo5gGCkzh-pNS2mwq4yGmdzkNdHxyrLz-pYQjDDaH_KU87xJAW9XT-zq4XIbY';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencv Python版 でテニスのボール軌道を検出する Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_1.jpg" data-lightbox="roadtrip" data-title="Opencvで色抽出 白 てまりのユニバーサルデザイン">
+						<img class="card-img" src="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYjjVYCH7BWlWxVV9G3Ub6SE9CoyOtQaUMFhwC1XnK754w17MOrRd6vCqh1kSAz1Q6fE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencvで色抽出 白 てまりのユニバーサルデザイン
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14198120439?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="教えてください 携帯の画面に白い丸が出現しました機能は戻るボタンの様な気がしま Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14198120439?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq7Q12yPqx1q-iu8s7ThVsKZggxSgaO0BL90p084as_HlaGt9U4g_Xx5TX1Bq-9Qw65yc';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				教えてください 携帯の画面に白い丸が出現しました機能は戻るボタンの様な気がしま Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+				<div class='card'>	
+			<div class="d-block p-4">
+	
+</div>		  	
+		  	<h3 class="h6 p-2"><b></b></h3>
+					</div>
+		
+						
+	  <div class='card'>
+	  	<a href="https://livedoor.blogimg.jp/moonlight_aska/imgs/7/9/7903a5fe.png" data-lightbox="roadtrip" data-title="Opencv 円を検出する Google Os実験室 Moonlight 明日香">
+						<img class="card-img" src="https://livedoor.blogimg.jp/moonlight_aska/imgs/7/9/7903a5fe.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmd57OFCEwFGknw3eqSgOjpSGYAPTk_aZdy91Y-vVi2sthG0ME4ZWHbdBiTHC4NnTHLZs';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencv 円を検出する Google Os実験室 Moonlight 明日香
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-13150976143?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-13150976143?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeYcqMPVI_6-SyPcaCLcLoTe9vijfY-ZLi3wV1bGMTvceQR13oVrgioj0HnGGoGFE7DXU';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cz-cdn.shoeisha.jp/static/images/article/153/figure4.gif" data-lightbox="roadtrip" data-title="Hough変換による画像からの直線や円の検出 Codezine コードジン">
+						<img class="card-img" src="https://cz-cdn.shoeisha.jp/static/images/article/153/figure4.gif" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQml5UWUiP054mkVuKXyoVNtRTXaXP96h8y_wcMqMI6X7quix1js1Of3Cv3Q2MWlcrTDv4';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Hough変換による画像からの直線や円の検出 Codezine コードジン
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_3.jpg" data-lightbox="roadtrip" data-title="Opencvで色抽出 白 てまりのユニバーサルデザイン">
+						<img class="card-img" src="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_3.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFmvFJb07dfPmL63K0guyNuijLvNGIm5o8IO-7Dpv6W4gCwO6Auy8pqJsC-ZO2w5Ct9E0';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencvで色抽出 白 てまりのユニバーサルデザイン
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14130316404?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14130316404?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDIImInHKw-3CPHNt63dP2Ed8tfWL6dA5_BJx6AVUqV0jnvAhJawkmCTISi64oqPZgLo';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.stack.imgur.com/imsry.jpg" data-lightbox="roadtrip" data-title="Phpで白い画像の背景を検出しますか Javaer101">
+						<img class="card-img" src="https://i.stack.imgur.com/imsry.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLDQO5-CumBQNGyMJE6ZNeQfRb1LYDxlWbF20wpFI0Cj-qMaTJ5EpF2SYyrrDXzBbhkjI';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Phpで白い画像の背景を検出しますか Javaer101
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507203431.png" data-lightbox="roadtrip" data-title="Androidアプリ開発 Opencvで画像から四角形を抽出するコツ Null Product S Blog">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507203431.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HLCQBintQxzAuTntMGvTip3GTpnsKE4LgLhpMNyKvdN2ZZAT3mfXZlKAKT973tWDT90';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidアプリ開発 Opencvで画像から四角形を抽出するコツ Null Product S Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_2.jpg" data-lightbox="roadtrip" data-title="Opencvで色抽出 白 てまりのユニバーサルデザイン">
+						<img class="card-img" src="https://temari.co.jp/blog/wp-content/uploads/2017/11/20171113_2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdJGawZV7PcEkN5QogEvSHf4o4t0DyTKUFvPZ4jNoQa4SYWnMGrqad5D0fM_R-pB8J4U';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Opencvで色抽出 白 てまりのユニバーサルデザイン
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507204007.png" data-lightbox="roadtrip" data-title="Androidアプリ開発 Opencvでbitmapから四角形を画像認識するサンプル Null Product S Blog">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507204007.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZ3RTlAvfuzOr6NSt0xjrDuUW_41AfxBDOp0kj8NKd8x5e542qoBIeyc5JMKh9jTTmjI';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidアプリ開発 Opencvでbitmapから四角形を画像認識するサンプル Null Product S Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/c/cerez__o/20180910/20180910015622.jpg" data-lightbox="roadtrip" data-title="Android Arcore Opencv Openglで四角形を検出する Westie S Tail">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/c/cerez__o/20180910/20180910015622.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlaWa5jMBMhrQ-hYTFpiFR21dR6YKsPtxFDpnZFQjkdtOL3u6w6y4tlKRwKR-6fMsCpjw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android Arcore Opencv Openglで四角形を検出する Westie S Tail
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14168748894?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14168748894?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPmnpuI8d2K1im45D7MvM4PIYMePw1zylYk5tUJBRU9kZ4xaL0DRKqgLJpSjJuUNY-f2w';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidですタップすると白い丸が出てくるんですけど無くしたいんで Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img2.jpg" data-lightbox="roadtrip" data-title="アンドロイドでopencv 色検出">
+						<img class="card-img" src="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img2.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIZ8Owk-IEjRXxgfnOVxV8YKtMcX9woZv1CVGfQYE2tT-cLSHi_pqzQkoT1CAQEn4G3A';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				アンドロイドでopencv 色検出
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img4.jpg" data-lightbox="roadtrip" data-title="アンドロイドでopencv 色検出">
+						<img class="card-img" src="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img4.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVKxGfMZvkvciWLyP2oPom7U7WiJzKDGUiZebAzOcob2_WeIsHfh95eF_wdgT6Ghn_Vs';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				アンドロイドでopencv 色検出
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.tokyo-itcenter.com/900image/and_remotemouse.jpg" data-lightbox="roadtrip" data-title="Android携帯用 障害のある人に便利なアプリ一覧">
+						<img class="card-img" src="https://www.tokyo-itcenter.com/900image/and_remotemouse.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMhQkCVWqwD1_W8lRF_arCUiTBVi_8k6TBrU6hFmmnC6Iawt-lmfWDd2ioDZvRM8oJHkE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android携帯用 障害のある人に便利なアプリ一覧
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507204153.png" data-lightbox="roadtrip" data-title="Androidアプリ開発 Opencvでbitmapから四角形を画像認識するサンプル Null Product S Blog">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/null-product/20170507/20170507204153.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIe3j1WpwPgFihOQOYrS1V49fTvdjUC5rPbw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Androidアプリ開発 Opencvでbitmapから四角形を画像認識するサンプル Null Product S Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.tokyo-itcenter.com/900image/and_rutintaimer.jpg" data-lightbox="roadtrip" data-title="Android携帯用 障害のある人に便利なアプリ一覧">
+						<img class="card-img" src="https://www.tokyo-itcenter.com/900image/and_rutintaimer.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Tud1dpDYNjXkiSknPjbdOLT-fJ4LKU4tCw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android携帯用 障害のある人に便利なアプリ一覧
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img.jpg" data-lightbox="roadtrip" data-title="アンドロイドでopencv 色検出">
+						<img class="card-img" src="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBvqUf32ZYRcwHzPDWPHw_KFcZ-LVeCPQ0Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				アンドロイドでopencv 色検出
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://camo.qiitausercontent.com/11e463e0c67668023b8237b8e75ebffb2327170e/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f33363739332f64633564313565652d616231312d373337652d653761622d3832396466396262326437662e706e67" data-lightbox="roadtrip" data-title="記事">
+						<img class="card-img" src="https://camo.qiitausercontent.com/11e463e0c67668023b8237b8e75ebffb2327170e/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f33363739332f64633564313565652d616231312d373337652d653761622d3832396466396262326437662e706e67" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTo0TwBEfa_1auSZ5SbL3BXpARKFbXwVScYg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				記事
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="/search?q=opencv+%E5%86%86%E6%A4%9C%E5%87%BA&amp;tbm=isch" data-lightbox="roadtrip" data-title="1">
+						<img class="card-img" src="/search?q=opencv+%E5%86%86%E6%A4%9C%E5%87%BA&amp;tbm=isch" onerror="this.onerror=null;this.src='/search?q=opencv+%E5%86%86%E6%A4%9C%E5%87%BA&amp;tbm=isch';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				1
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10194563650?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="こんにちは 画像の左上にある白い 丸マークは何なのか知ってる人がい Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-10194563650?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ya47mdgpUmRwDn8gSRjHLO-LBPABmZ7Yng';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				こんにちは 画像の左上にある白い 丸マークは何なのか知ってる人がい Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://4.bp.blogspot.com/-vtslOJl-9_w/TudjOTbTKyI/AAAAAAAAAws/qZAEdMc9AT8/s1600/WS000012.png" data-lightbox="roadtrip" data-title="Micchy S Blog アニメキャラに顔認識掛けてみた">
+						<img class="card-img" src="http://4.bp.blogspot.com/-vtslOJl-9_w/TudjOTbTKyI/AAAAAAAAAws/qZAEdMc9AT8/s1600/WS000012.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbrJ63TsvH6sYZRuu510Jx9tgtk1RFLv456Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Micchy S Blog アニメキャラに顔認識掛けてみた
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://kokensha.xyz/wp-content/uploads/2018/05/Flutter-Google%E2%80%99s-New-Mobile-UI-Framework-for-iOS-Android-2-1-1024x559-1024x559.png" data-lightbox="roadtrip" data-title="Android Studioでflutterを使うための設定手順 Kokenshaの技術ブログ">
+						<img class="card-img" src="https://kokensha.xyz/wp-content/uploads/2018/05/Flutter-Google%E2%80%99s-New-Mobile-UI-Framework-for-iOS-Android-2-1-1024x559-1024x559.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ifVKeJK3q_fWXago3Xh2eR0rz7fDPhhHMw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android Studioでflutterを使うための設定手順 Kokenshaの技術ブログ
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.tokyo-itcenter.com/900image/and_droptalkfree.jpg" data-lightbox="roadtrip" data-title="Android携帯用 障害のある人に便利なアプリ一覧">
+						<img class="card-img" src="https://www.tokyo-itcenter.com/900image/and_droptalkfree.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS777C5lcG-punPzez7GAHS95L9W2rCoXY94A';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android携帯用 障害のある人に便利なアプリ一覧
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img6.jpg" data-lightbox="roadtrip" data-title="アンドロイドでopencv 色検出">
+						<img class="card-img" src="http://foonyan.sakura.ne.jp/wisteriahill/opencv_android_II/img/img6.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNKGQsrbxJU_lkf1Zm3jN0x37AN5yHQ3JqlQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				アンドロイドでopencv 色検出
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14197552729?w=200&amp;h=200&amp;up=0" data-lightbox="roadtrip" data-title="こんにちは 画像の左上にある白い 丸マークは何なのか知ってる人がい Yahoo 知恵袋">
+						<img class="card-img" src="https://chie-pctr.c.yimg.jp/dk/iwiz-chie/que-14197552729?w=200&amp;h=200&amp;up=0" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_KZhQ8Zsn9ERZsvxpZ2om9X_i2SjAJKEfg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				こんにちは 画像の左上にある白い 丸マークは何なのか知ってる人がい Yahoo 知恵袋
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.tokyo-itcenter.com/900image/and_nhk+.jpg" data-lightbox="roadtrip" data-title="Android携帯用 障害のある人に便利なアプリ一覧">
+						<img class="card-img" src="https://www.tokyo-itcenter.com/900image/and_nhk+.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCCqyvoxk4PliEKFrtJ3eFrKQMNVwVmN55IQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Android携帯用 障害のある人に便利なアプリ一覧
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.stack.imgur.com/MKqiZ.png" data-lightbox="roadtrip" data-title="角が丸いandroid Calendarviewを使用しても 四角い影が表示されます Javaer101">
+						<img class="card-img" src="https://i.stack.imgur.com/MKqiZ.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXSH8nohIRgV2GGebpnVVi4IeKj-VsvvLNLg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				角が丸いandroid Calendarviewを使用しても 四角い影が表示されます Javaer101
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+		
+	</div>
+
+		 
+		<div class="d-block mt-4 p-3">
+
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+		
+				</div>
+				<div class="col-sm-12 widget">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center py-4">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+					
+				</div>
+			</div>
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+		
+		<!-- Footer CSS JS -->
+<!-- Statcounter code for 2_mamakamaa https://mamakamaa.blogspot.com/ on Blogger -->
+<script type="text/javascript">
+//<![CDATA[
+var sc_project=12506186; 
+var sc_invisible=1; 
+var sc_security="04fde361"; 
+//]]>
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter_xhtml.js" async></script>
+
+		
+		
+		
+			</body>
+</html>
